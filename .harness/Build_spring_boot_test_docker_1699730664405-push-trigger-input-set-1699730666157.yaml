@@ -1,5 +1,6 @@
 inputSet:
   name: Build_spring_boot_test_docker_1699730664405-push-trigger-input-set
+  tags: {}
   identifier: Build_spring_boot_test_docker_1699730664405pushtriggerinputset
   orgIdentifier: default
   projectIdentifier: myProject
