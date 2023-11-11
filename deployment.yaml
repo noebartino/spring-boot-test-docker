@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: spring-app
-          image: noeadahi/spring-boot-app:v4
+          image: noeadahi/spring-boot-app:v5
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
