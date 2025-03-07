@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_spring_boot_test_docker_1741391636493-push-trigger-input-set
+  identifier: Build_spring_boot_test_docker_1741391636493pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: MyTest
+  pipeline:
+    identifier: Build_spring_boot_test_docker_1741391636493
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
