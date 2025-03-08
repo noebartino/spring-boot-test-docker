@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_spring_boot_test_docker_1741460460726-pr-trigger-input-set
+  identifier: Build_spring_boot_test_docker_1741460460726prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: MyTest
+  pipeline:
+    identifier: Build_spring_boot_test_docker_1741460460726
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
